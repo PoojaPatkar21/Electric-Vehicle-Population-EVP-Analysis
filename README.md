@@ -73,7 +73,9 @@ The Power BI dashboard consists of:
 
 ## Dashboard 
 Page 1
+![Page 1](https://github.com/user-attachments/assets/7ad1e5b0-1f6b-4170-99e2-a0612442abb4)
 
 Page 2
+![Page 2](https://github.com/user-attachments/assets/11da590e-3fdc-43fd-9e8d-3b45cf3043ca)
 
 
