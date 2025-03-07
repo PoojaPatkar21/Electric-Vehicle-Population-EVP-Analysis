@@ -34,6 +34,8 @@ Steps to Import Data from Excel to SQL Server Management Studio (SSMS):
    SELECT * FROM dbo.EVP
 
 ## Dataset Overview
+Link: https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data
+
 Detailed Registry of Electric Vehicles with Specs, Location & Utility Data
 This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
 
