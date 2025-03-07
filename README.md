@@ -34,28 +34,28 @@ Steps to Import Data from Excel to SQL Server Management Studio (SSMS):
 Detailed Registry of Electric Vehicles with Specs, Location & Utility Data
 This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
 
-Number of Rows: 223,995
-Number of Columns: 17
-Contains Missing Values
+🟢Number of Rows: 223,995
+🟢Number of Columns: 17
+🟢Contains Missing Values
 
-Column Descriptions:
-VIN (1-10): First 10 characters of the Vehicle Identification Number.
-County: The county where the vehicle is registered.
-City: The city where the vehicle is registered.
-State: The state where the vehicle is registered.
-Postal Code: The ZIP code of the vehicle's registration location.
-Model Year: The manufacturing year of the vehicle.
-Make: The brand/manufacturer of the vehicle (e.g., Tesla, Nissan).
-Model: The specific model of the vehicle.
-Electric Vehicle Type: The type of EV (Battery Electric Vehicle or Plug-in Hybrid).
-Clean Alternative Fuel Vehicle (CAFV) Eligibility: Indicates if the vehicle qualifies for CAFV benefits.
-Electric Range: The maximum range the vehicle can travel on a single charge.
-Base MSRP: The Manufacturer's Suggested Retail Price of the vehicle.
-Legislative District: The legislative district where the vehicle is registered.
-DOL Vehicle ID: A unique identifier assigned by the Department of Licensing.
-Vehicle Location: A general reference to the vehicle's location.
-Electric Utility: The electric utility company serving the vehicle's area.
-2020 Census Tract: The census tract based on 2020 data for demographic analysis.
+⭐ Column Descriptions:
+1.	VIN (1-10): First 10 characters of the Vehicle Identification Number.
+2.	County: The county where the vehicle is registered.
+3.	City: The city where the vehicle is registered.
+4.	State: The state where the vehicle is registered.
+5.	Postal Code: The ZIP code of the vehicle's registration location.
+6.	Model Year: The manufacturing year of the vehicle.
+7.	Make: The brand/manufacturer of the vehicle (e.g., Tesla, Nissan).
+8.	Model: The specific model of the vehicle.
+9.Electric Vehicle Type: The type of EV (Battery Electric Vehicle or Plug-in Hybrid).
+10.	Clean Alternative Fuel Vehicle (CAFV) Eligibility: Indicates if the vehicle qualifies for CAFV benefits.
+11.	Electric Range: The maximum range the vehicle can travel on a single charge.
+12.	Base MSRP: The Manufacturer's Suggested Retail Price of the vehicle.
+13.	Legislative District: The legislative district where the vehicle is registered.
+14.	DOL Vehicle ID: A unique identifier assigned by the Department of Licensing.
+15.	Vehicle Location: A general reference to the vehicle's location.
+16.	Electric Utility: The electric utility company serving the vehicle's area.
+17.	2020 Census Tract: The census tract based on 2020 data for demographic analysis.
 
 
 ## Analysis using Power BI 
@@ -72,5 +72,8 @@ The Power BI dashboard consists of:
 4.	Data Analysis using SQL 
 
 ## Dashboard 
+Page 1
+
+Page 2
 
 
