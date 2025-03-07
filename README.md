@@ -1,15 +1,32 @@
-# Electric-Vehicle-Population-EVP-Analysis
-
-
-⚡ Electric Vehicle Population Dashboard - Power BI
+# Electric-Vehicle-Population-EVP-Analysis using Power BI and SQL 
 This repository contains a Power BI dashboard designed to analyze electric vehicle (EV) population data, using KPI cards, various visualizations, and calculated measures to gain insights into EV adoption trends.
 
-##🔹 Key Activities: 
+## Key Activities: 
 1.	Comprehending the dataset.
 2.	Performed data cleaning to ensure accuracy and consistency.
 3.	Generated business questions to guide data-driven decision-making.
 4.	Conducted data analysis using Excel and SQL to uncover insights.
 5.	Developed interactive dashboards in Power BI to visualize key findings effectively.
+
+## Features
+1.	KPI Cards – Track key EV metrics such as total electric vehicles, EV types, brands, electric range, base MSRP, cities, Legislative districts. 
+2.	Interactive Visuals – Various charts to analyze trends in EV adoption across regions and time.
+3.	Custom Measures – DAX-based calculations for deep insights into EV population and market penetration.
+4.	Data-Driven Decision Making – Helps in understanding EV adoption patterns, regional distribution, and brand demand.
+
+
+## Analysis using SQL 
+Steps to Import Data from Excel to SQL Server Management Studio (SSMS):
+
+Open SQL Server Management Studio (SSMS) and connect to your database.
+Create a new database named as “EVPDB”
+Navigate to Tasks > Import Data in Object Explorer.
+Select Microsoft Excel as the data source and browse for your Excel file. Click the 'Browse' button to select the path to the Excel file you want to import. Choose the correct Excel version and click Next. Tick the 'First Row has headers' checkbox if your Excel file contains headers. Click Next.
+On the 'Choose a Destination' screen, select destination database: Select Server name as "Microsoft Excel OLE DB Provider for SQL Server".
+On the 'Specify Table Copy or Query' window: For simplicity just select 'Copy data from one or more tables or views', click Next.
+Complete the import process and verify the data using 
+USE EVPDB; 
+SELECT * FROM dbo.EVP 
 
 
 ## Dataset Overview
@@ -40,14 +57,19 @@ Electric Utility: The electric utility company serving the vehicle's area.
 2020 Census Tract: The census tract based on 2020 data for demographic analysis.
 
 
+## Analysis using Power BI 
 📊 Dashboard Overview
 The Power BI dashboard consists of:
 1.	EV Population Trends ⚡ – EV type distribution, Clean Alternative Fuel Vehicle (CAFV) Eligibility 
 2.	Regional EV Distribution 🌎 – EV distribution across different legislative districts
 3.	Manufacturer & Model Analysis 🚗 – EV brands and models distribution, Model year distribution
-🛠️ Tech Stack
+   
+## Tech Stack
 1.	Power BI for data visualization
 2.	DAX (Data Analysis Expressions) for measures
 3.	Excel/CSV Data Sources
 4.	Data Analysis using SQL 
+
+## Dashboard 
+
 
