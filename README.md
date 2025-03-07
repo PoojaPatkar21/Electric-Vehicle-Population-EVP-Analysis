@@ -16,18 +16,19 @@ This repository contains a Power BI dashboard designed to analyze electric vehic
 
 
 ## Analysis using SQL 
+⭐ Convert the csv file to excel format 
+
 Steps to Import Data from Excel to SQL Server Management Studio (SSMS):
 
-Open SQL Server Management Studio (SSMS) and connect to your database.
-Create a new database named as “EVPDB”
-Navigate to Tasks > Import Data in Object Explorer.
-Select Microsoft Excel as the data source and browse for your Excel file. Click the 'Browse' button to select the path to the Excel file you want to import. Choose the correct Excel version and click Next. Tick the 'First Row has headers' checkbox if your Excel file contains headers. Click Next.
-On the 'Choose a Destination' screen, select destination database: Select Server name as "Microsoft Excel OLE DB Provider for SQL Server".
-On the 'Specify Table Copy or Query' window: For simplicity just select 'Copy data from one or more tables or views', click Next.
-Complete the import process and verify the data using 
-USE EVPDB; 
-SELECT * FROM dbo.EVP 
-
+1.	Open SQL Server Management Studio (SSMS) and connect to your database.
+2.	Create a new database named as “EVPDB”
+3.	Navigate to Tasks > Import Data in Object Explorer.
+4.	Select Microsoft Excel as the data source and browse for your Excel file. Click the 'Browse' button to select the path to the Excel file you want to import. Choose the correct Excel version and click Next. Tick the 'First Row has headers' checkbox if your Excel file contains headers. Click Next.
+5.	On the 'Choose a Destination' screen, select destination database: Select Server name as "Microsoft Excel OLE DB Provider for SQL Server".
+6.	On the 'Specify Table Copy or Query' window: For simplicity just select 'Copy data from one or more tables or views', click Next.
+7.	Complete the import process and verify the data using 
+   USE EVPDB; 
+   SELECT * FROM dbo.EVP
 
 ## Dataset Overview
 Detailed Registry of Electric Vehicles with Specs, Location & Utility Data
@@ -58,7 +59,7 @@ Electric Utility: The electric utility company serving the vehicle's area.
 
 
 ## Analysis using Power BI 
-📊 Dashboard Overview
+⭐ Dashboard Overview
 The Power BI dashboard consists of:
 1.	EV Population Trends ⚡ – EV type distribution, Clean Alternative Fuel Vehicle (CAFV) Eligibility 
 2.	Regional EV Distribution 🌎 – EV distribution across different legislative districts
