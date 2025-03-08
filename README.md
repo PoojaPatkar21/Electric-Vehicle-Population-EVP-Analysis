@@ -16,7 +16,7 @@ This repository contains a Power BI dashboard designed to analyze electric vehic
 
 
 ## Data Cleaning
-⭐ The eoriginl dataset contains null values. I have performed data cleaning by removing the null values.
+⭐ The originl dataset contains null values. I have performed data cleaning by removing the null values.
 
 ## Analysis using SQL 
 ⭐ Convert the csv file to excel format 
